@@ -13,16 +13,16 @@
       <div class="box">
         <h1>Level Up Your Frontend Skills</h1>
         <p>Sign up for our free newsletter to receive weekly coding challenges that</p> <p>will help you imrove frontend developments skills.</p>
-        <form id="myform">
+        <form id="myform" onsubmit="return validation()">
           <input type="email" id="email" placeholder="Enter your email address">
           <input type="submit" value="Subscribe"><br>
-          <p id="error" style="color: red; display: none;">Please enter a valid email address.</p>
+          <p id="error" style="color: red; display: none;">Please enter a valid email</p>
           <input type="checkbox">
           <p>By checking this box, you agree to receive our weekly newsletter containing coding challenges,tips,and other
             related content.You may unsubscribe from the newsletter at any time.</p>
         </form>
       </div>
     </div>
-    <script src="/src/script.js"></script>
+    <script src="src/script.js"></script>
   </body>
 </html>
